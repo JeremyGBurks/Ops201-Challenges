@@ -11,7 +11,7 @@
 
 #!/bin/bash
 
-ping_output=$(ping -c 4 8.8.8.8)
+Network_info=$(ifconfig)
 
-echo $ping_output > output.txt
+echo $Network_info > output.txt
 echo "I am working perfectly"
