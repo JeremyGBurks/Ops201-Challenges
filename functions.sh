@@ -8,9 +8,11 @@
 # Declaration of variables:     login_history
 
 echo "Login history"
+
 login_history(){
 
-    echo $(last -3)
+    login_history=$(last -3)
+    echo $login_history
 
 }
 
