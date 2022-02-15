@@ -1,4 +1,4 @@
-#! bin/bash
+#!/bin/bash
 
 # Script:                       Op Challenge Day 04
 # Author:                       Jeremy Burks
