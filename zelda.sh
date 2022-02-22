@@ -8,4 +8,4 @@ echo "Hello, $name."
 echo "what are you doing here?"
 read coding
 echo "It's DANGEROUS to go alone, take this network info with you."
-echo $network_info
+echo $network_info 

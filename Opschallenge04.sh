@@ -1,4 +1,4 @@
-#!/bin/bash
+#! bin/bash
 
 # Script:                       Op Challenge Day 04
 # Author:                       Jeremy Burks
@@ -14,9 +14,7 @@ mkdir dir4
 
 array_test=(dir1 dir2 dir3 dir4)
 
-files=("dir1.txt" "dir2.txt" "dir3.txt" "dir4.txt")
-
-echo ${files[0]}
-echo ${files[1]}
-echo ${files[2]}
-echo ${files[3]}
+touch ${array_test[0]}/file.txt
+touch ${array_test[1]}/file.txt
+touch ${array_test[2]}/file.txt
+touch ${array_test[3]}/file.txt
