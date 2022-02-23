@@ -8,7 +8,7 @@
 
 # Creates the variable <processes> and assigns it to the <ps aux> command that prints all running processes
 processes=$(ps aux) 
-echo "$processes" 
+echo "$processes"
 echo ""
 echo "WARNING! DO NOT KILL ROOT/KERNEL PROCESSES!"
 echo ""
