@@ -43,13 +43,16 @@ do
     echo "You have selected: $userinput"
     if [[ $userinput == 1 ]]; then
          echo "Hold tight...I'm filing..."
+         sleep .5
          filecreate
     elif [[ $userinput == 2 ]]; then
          echo "Hold tight...I'm directing..."
+         sleep .5
          dircreate
     elif [[ $userinput == 3 ]]; then
-        echo "Goodbye!"
-        break   
+         sleep .5
+         echo "Goodbye!"
+         break   
     else
         echo "Enter a valid number or Press Ctrl+C to exit"
     fi
