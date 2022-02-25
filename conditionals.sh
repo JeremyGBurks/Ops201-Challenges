@@ -51,6 +51,6 @@ do
         echo "Goodbye!"
         break   
     else
-        echo "Enter a number, 1 or Press Ctrl+C to exit"
+        echo "Enter a valid number or Press Ctrl+C to exit"
     fi
 done
