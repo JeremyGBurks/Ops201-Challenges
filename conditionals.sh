@@ -22,15 +22,15 @@ filecreate(){
 # function to check if a directory in an array exists. If it does not, it creates it.
 dircreate(){
 listdir=(dir1 dir2 dir3)
-for index in "${listdir[@]}"
-do  
-    if [[ -d $index ]]; then 
-        echo "$index already exists"
-    else
-        echo "Creating $index"
-        touch $index
-    fi
-done
+    for index in "${listdir[@]}"
+    do  
+        if [[ -d $index ]]; then 
+            echo "$index already exists"
+        else
+            echo "Creating $index"
+            touch $index
+        fi
+    done
 }
 
 # while loop that prompts the user to enter 1 (file) 2 (directory) 3 (to exit). Depending on user input, it employs logic to call a particular function or return to the top of the loop.
