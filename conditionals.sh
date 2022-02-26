@@ -28,7 +28,7 @@ listdir=(dir1 dir2 dir3)
             echo "$index already exists"
         else
             echo "Creating $index"
-            touch $index
+            mkdir $index
         fi
     done
 }
