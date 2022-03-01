@@ -5,9 +5,11 @@
 # Date of latest revision:      02/28/22
 # Purpose:                      uses grep with the lshw command to pick out specific system info and exclude others
 
-# declaration of variables
+
 echo ""
 echo -e "\e[31m*~*~*Execute script as root/run as sudo*~*~*\e[0m"
+
+# declaration of variables
 computername="-e \e[31mComputer name: \e[0m" 
 cpuinfo="-e \e[31mCPU info: \e[0m" 
 raminfo="-e \e[31mRAM info: \e[0m"
