@@ -3,7 +3,7 @@
 # Script:                       Ops Challenge 07 (grep lshw)
 # Author:                       Jeremy Burks
 # Date of latest revision:      02/28/22
-# Purpose:                      uses grep with the lshw command to pick out specific system info, and exclude others
+# Purpose:                      uses grep with the lshw command to pick out specific system info and exclude others
 
 # declaration of variables
 echo ""
