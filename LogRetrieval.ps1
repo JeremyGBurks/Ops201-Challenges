@@ -23,8 +23,13 @@ $eventnewest100 = Get-EventLog -LogName System -EntryType Error -Newest 100
 $eventnewest100 | Out-File -FilePath $DesktopPath\errors.txt
 
 "`n"
+<<<<<<< HEAD
 echo "All recent events with Event ID 16: "
 Get-EventLog -LogName System -InstanceId 16 
+=======
+echo "All events with Event ID 16: "
+Get-EventLog -LogName System -InstanceId 16
+>>>>>>> be8f298b53f02de9c56e6b663afe5177cd2871a5
 
 "`n"
 echo "20 Most recent entries in system event log: "
