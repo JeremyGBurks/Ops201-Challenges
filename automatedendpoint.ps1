@@ -68,27 +68,27 @@ $choice = Read-Host "`nEnter Choice"
 switch ($choice) {
     'E' {
         Write-Host "`nYou have selected Enable File and Printer Sharing"
-        Enable-PSSharing
+        Enable_PSSharing
     }
     'A' {
         Write-Host "`nYou have selected Allow ICMP Traffic"
-        Allow-PSTraffic
+        Allow_PSTraffic
     }
     'M' {
         Write-Host "`nYou have selected Enable Remote Management"
-        Enable-PSRemote
+        Enable_PSRemote
     }
     'B' {
         Write-Host "`nOpening Windows10 Debloater Menu"
-        Remove-PSBloat
+        Remove_PSBloat
     }
     'H' {
         Write-Host "`nYou have selected Enable Hyper-V"
-        Enable-PSHyperV
+        Enable_PSHyperV
     }
     'D' {
         Write-Host "`nYou have selected Disable SMBv1"
-        Disable-SMB
+        Disable_SMB
     }
     'R' {
         Write-Host "`nRestarting your computer"
