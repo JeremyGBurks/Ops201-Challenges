@@ -29,6 +29,8 @@ read -p "Enter domain (including .com): " answer
 
 #stores the data into a file
 siteanalytics > siteanalytics.txt
+
+#function that takes user input and uses conditionals 
 echo "This information has been added to file: siteanalytics.txt"
 user_menu(){
     echo "Would you like to view contents of siteanalytics.txt in the terminal?"
